@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace AdapterPattern
+{
+    class CamelToTransportAdapter : ITransport
+    {
+        private readonly Camel _camel;
+        public CamelToTransportAdapter(Camel camel) => _camel = camel;
+        public void Drive()
+        {
+            _camel.Move();
+        }
+    }
+}
