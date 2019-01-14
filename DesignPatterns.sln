@@ -15,15 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{E9DF1EDE-C5B1-4248-A589-4B43EAC828D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{0E343EF2-F2CF-464B-8972-6B5722E8D8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{0E343EF2-F2CF-464B-8972-6B5722E8D8F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{13A4ADDE-C625-418D-837E-6A122DF2D856}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{13A4ADDE-C625-418D-837E-6A122DF2D856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{F27D41A4-C628-49B4-BCAE-75063A7BBE64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{F27D41A4-C628-49B4-BCAE-75063A7BBE64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{13D8E608-80C6-493B-B61D-0F69D06FEBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{13D8E608-80C6-493B-B61D-0F69D06FEBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{1A43A3F1-7CB7-47AB-801C-4B0E381EDFBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{1A43A3F1-7CB7-47AB-801C-4B0E381EDFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{3584F5A6-C784-46A8-9B0C-3FFF79FC35EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{1A43A3F1-7CB7-47AB-801C-4B0E381EDFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A43A3F1-7CB7-47AB-801C-4B0E381EDFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A43A3F1-7CB7-47AB-801C-4B0E381EDFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3584F5A6-C784-46A8-9B0C-3FFF79FC35EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3584F5A6-C784-46A8-9B0C-3FFF79FC35EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3584F5A6-C784-46A8-9B0C-3FFF79FC35EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3584F5A6-C784-46A8-9B0C-3FFF79FC35EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
